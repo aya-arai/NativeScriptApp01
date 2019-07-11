@@ -1,0 +1,2 @@
+# NativeScriptApp01
+NativeScriptで作る動画再生アプリ
