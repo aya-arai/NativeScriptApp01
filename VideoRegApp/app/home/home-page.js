@@ -7,8 +7,15 @@ function onNavigatingTo(args) {
 }
 
 function onTap(args) {
-    const button = args.object;
-    button.text = `文字が変わったね`;
+    //const button = args.object;
+    //button.text = `文字が変わったね`;
+    alert({
+        title:"タイトルはここ",
+        message:"メッセージ",
+        okButtonText:"閉じる"
+    }).then(function(){
+        console.log("test");
+    });
 }
 exports.onTap = onTap;
 

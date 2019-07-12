@@ -6,8 +6,6 @@
 
     <StackLayout class="stack">
         <Label class="h2" text="クリック"></Label>
-        <Button text="動画再生" tap="onTap" id="button" class="btn btn-primary btn-active btn-rounded-lg"></Button>
-        
+        <Button text="動画再生!!" tap="onTap" id="button" class="btn btn-primary btn-active btn-rounded-lg"></Button>
      </StackLayout>
-    
 </Page>
