@@ -5,8 +5,9 @@
     </ActionBar>
 
     <StackLayout class="stack">
-        <Label class="h2" text="ココ押してね"></Label>
-        <Button text="動画再生" class="btn btn-primary btn-active btn-rounded-lg"></Button>
+        <Label class="h2" text="クリック"></Label>
+        <Button text="動画再生" tap="onTap" id="button" class="btn btn-primary btn-active btn-rounded-lg"></Button>
+        
      </StackLayout>
     
 </Page>
